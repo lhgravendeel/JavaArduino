@@ -14,3 +14,10 @@ With this program, the Arduino can connect to any computer over USB and Java can
 ## Setup
 
  1. Load an Arduino program, such as: `https://github.com/uArm-Developer/UArmForArduino/blob/dev/examples/Metal/Metal.ino`
+ 2. Load the right jinput native binary into the JVM
+ 3. Run the app to see which serial port is available to connect to the Arduino (Arduino must be plugged in already).
+ 4. Specify the appropriate port if needed, and run again.
+
+## Libraries
+
+This project uses nrjavaserial to connect to the Arduino and jinput to connect to USB joysticks or controllers.
